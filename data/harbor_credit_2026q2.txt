@@ -1,0 +1,12 @@
+SYNTHETIC REPORT - LOCAL PROTOTYPE ONLY
+Document ID: harbor_credit_2026q2
+Fund ID: harbor_credit
+Fund: Harbor Credit Demo Fund
+Period: 2026Q2
+Currency: USD
+Strategy: Private credit and senior secured loans.
+NAV USD: 126000000
+Commitments USD: 200000000
+Distributions USD: 1500000
+All names and amounts are invented demonstration data.
+Changes in NAV are not investment returns and may reflect cash flows.

@@ -1,0 +1,281 @@
+{
+  "verification_version": "1.0.0",
+  "scope": "Local synthetic-data prototype; software/protocol verification only, not model accuracy or production validation.",
+  "mcp_sdk_version": "2.3.0",
+  "protocol_version": "2026-07-28",
+  "server_info": {
+    "name": "Investment Document MCP",
+    "title": null,
+    "version": "0.1.0",
+    "description": null,
+    "website_url": null,
+    "icons": null
+  },
+  "dataset_version": "synthetic-reports-v1",
+  "dataset_sha256": "8914939b711f65433c8768f0a4ce1c7bbbcc971406e162d51099481b3839c818",
+  "fixture_documents": 6,
+  "fixture_metric_values_checked": 18,
+  "tool_calls": 51,
+  "source_sha256": {
+    "server.py": "dad00c6d4facd150035dbdc8d562237868bcd19309a8f58b765aeb35d402df6c",
+    "report_store.py": "fa26568e3ae45b7afdf9a07cb3a49d9b860727287b3bdb633420d98468414bc0",
+    "verify.py": "6924888e8779e7c3d8eb75b4d7de46c9d8d3be490505090d4b9628393a8c2224"
+  },
+  "counts": {
+    "total": 50,
+    "passed": 50,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "manifest_and_all_source_hashes",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "reject_tampered_bytes",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "reject_manifest_escape",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "reject_nonsynthetic",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "reject_missing_label",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "reject_unsupported_currency",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "reject_negative_amount",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "reject_symlink_escape",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "sqlite_index_rejects_mutation",
+      "category": "fixture_integrity",
+      "status": "passed"
+    },
+    {
+      "name": "stdio_initialization_and_server_identity",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "tool_discovery_input_schemas_and_read_only_hints",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "search_known_strategy",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "search_all_terms_and_case",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "search_limit_is_enforced",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "search_no_matches",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "search_sql_like_injection_is_data",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "read_and_cite_harbor_credit_2026q1",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "read_and_cite_harbor_credit_2026q2",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "read_and_cite_summit_growth_2026q1",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "read_and_cite_summit_growth_2026q2",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "read_and_cite_cedar_real_assets_2026q1",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "read_and_cite_cedar_real_assets_2026q2",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "all_three_metrics_harbor_credit_2026q1",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "all_three_metrics_harbor_credit_2026q2",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "all_three_metrics_summit_growth_2026q1",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "all_three_metrics_summit_growth_2026q2",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "all_three_metrics_cedar_real_assets_2026q1",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "all_three_metrics_cedar_real_assets_2026q2",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "compare_positive_default_nav",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "compare_negative_nav",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "compare_unchanged_commitments",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "compare_zero_baseline",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "compare_fractional_percentage",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_unknown_document",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_path_escape_document_id",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_missing_required_argument",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_wrong_identifier_type",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_unknown_fund",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_missing_period_data",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_unsupported_metric",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_invalid_period_format",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_reversed_periods",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_equal_periods",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_compare_missing_endpoint",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_empty_query",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_punctuation_only_query",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_excessive_query_length",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_limit_above_maximum",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_limit_below_minimum",
+      "category": "mcp_integration",
+      "status": "passed"
+    },
+    {
+      "name": "reject_limit_string_not_coerced",
+      "category": "mcp_integration",
+      "status": "passed"
+    }
+  ]
+}

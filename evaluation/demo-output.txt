@@ -1,0 +1,90 @@
+Discovered MCP tools: search_reports, read_report, get_metric, compare_periods
+{
+  "search": {
+    "synthetic": true,
+    "dataset_version": "synthetic-reports-v1",
+    "dataset_sha256": "8914939b711f65433c8768f0a4ce1c7bbbcc971406e162d51099481b3839c818",
+    "results": [
+      {
+        "title": "Harbor Credit Demo Fund",
+        "source": {
+          "document_id": "harbor_credit_2026q1",
+          "fund_id": "harbor_credit",
+          "period": "2026Q1",
+          "uri": "synthetic://reports/harbor_credit_2026q1",
+          "sha256": "7b11f29ff701f1e4d744ef984313e9e512b29fed8f0bb2bb4a6d17a1766255a7"
+        },
+        "excerpt": "SYNTHETIC REPORT - LOCAL PROTOTYPE ONLY\nDocument ID: harbor_credit_2026q1\nFund ID: harbor_credit\nFund: Harbor Credit Demo Fund\nPeriod: 2026Q1\nCurrency: USD\nStrategy: Private credit and senior secured loans.\nNAV USD: 120000000\nCommitments USD: 200000000\nDistributions USD: 1000000\nAll names and amounts are invented demonstration data.\nChanges in NAV are not investment returns and may reflect cash flows.\n"
+      },
+      {
+        "title": "Harbor Credit Demo Fund",
+        "source": {
+          "document_id": "harbor_credit_2026q2",
+          "fund_id": "harbor_credit",
+          "period": "2026Q2",
+          "uri": "synthetic://reports/harbor_credit_2026q2",
+          "sha256": "b1ac6537204635e3e48dc137975bb7a9dc7cb671de1617ecb70f99b22b6711c7"
+        },
+        "excerpt": "SYNTHETIC REPORT - LOCAL PROTOTYPE ONLY\nDocument ID: harbor_credit_2026q2\nFund ID: harbor_credit\nFund: Harbor Credit Demo Fund\nPeriod: 2026Q2\nCurrency: USD\nStrategy: Private credit and senior secured loans.\nNAV USD: 126000000\nCommitments USD: 200000000\nDistributions USD: 1500000\nAll names and amounts are invented demonstration data.\nChanges in NAV are not investment returns and may reflect cash flows.\n"
+      }
+    ]
+  },
+  "report": {
+    "synthetic": true,
+    "dataset_version": "synthetic-reports-v1",
+    "dataset_sha256": "8914939b711f65433c8768f0a4ce1c7bbbcc971406e162d51099481b3839c818",
+    "title": "Harbor Credit Demo Fund",
+    "text": "SYNTHETIC REPORT - LOCAL PROTOTYPE ONLY\nDocument ID: harbor_credit_2026q1\nFund ID: harbor_credit\nFund: Harbor Credit Demo Fund\nPeriod: 2026Q1\nCurrency: USD\nStrategy: Private credit and senior secured loans.\nNAV USD: 120000000\nCommitments USD: 200000000\nDistributions USD: 1000000\nAll names and amounts are invented demonstration data.\nChanges in NAV are not investment returns and may reflect cash flows.\n",
+    "source": {
+      "document_id": "harbor_credit_2026q1",
+      "fund_id": "harbor_credit",
+      "period": "2026Q1",
+      "uri": "synthetic://reports/harbor_credit_2026q1",
+      "sha256": "7b11f29ff701f1e4d744ef984313e9e512b29fed8f0bb2bb4a6d17a1766255a7"
+    }
+  },
+  "metric": {
+    "synthetic": true,
+    "dataset_version": "synthetic-reports-v1",
+    "dataset_sha256": "8914939b711f65433c8768f0a4ce1c7bbbcc971406e162d51099481b3839c818",
+    "metric": "nav_usd",
+    "value": 126000000,
+    "unit": "USD",
+    "source": {
+      "document_id": "harbor_credit_2026q2",
+      "fund_id": "harbor_credit",
+      "period": "2026Q2",
+      "uri": "synthetic://reports/harbor_credit_2026q2",
+      "sha256": "b1ac6537204635e3e48dc137975bb7a9dc7cb671de1617ecb70f99b22b6711c7"
+    }
+  },
+  "comparison": {
+    "synthetic": true,
+    "dataset_version": "synthetic-reports-v1",
+    "dataset_sha256": "8914939b711f65433c8768f0a4ce1c7bbbcc971406e162d51099481b3839c818",
+    "metric": "nav_usd",
+    "start_value": 120000000,
+    "end_value": 126000000,
+    "delta": 6000000,
+    "percent_change": "5.00",
+    "unit": "USD",
+    "percent_change_note": null,
+    "sources": [
+      {
+        "document_id": "harbor_credit_2026q1",
+        "fund_id": "harbor_credit",
+        "period": "2026Q1",
+        "uri": "synthetic://reports/harbor_credit_2026q1",
+        "sha256": "7b11f29ff701f1e4d744ef984313e9e512b29fed8f0bb2bb4a6d17a1766255a7"
+      },
+      {
+        "document_id": "harbor_credit_2026q2",
+        "fund_id": "harbor_credit",
+        "period": "2026Q2",
+        "uri": "synthetic://reports/harbor_credit_2026q2",
+        "sha256": "b1ac6537204635e3e48dc137975bb7a9dc7cb671de1617ecb70f99b22b6711c7"
+      }
+    ],
+    "interpretation": "Change in a reported amount, not a total investment return."
+  }
+}

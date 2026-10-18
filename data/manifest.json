@@ -1,0 +1,30 @@
+{
+  "dataset_version": "synthetic-reports-v1",
+  "synthetic": true,
+  "files": [
+    {
+      "file": "harbor_credit_2026q1.txt",
+      "sha256": "7b11f29ff701f1e4d744ef984313e9e512b29fed8f0bb2bb4a6d17a1766255a7"
+    },
+    {
+      "file": "harbor_credit_2026q2.txt",
+      "sha256": "b1ac6537204635e3e48dc137975bb7a9dc7cb671de1617ecb70f99b22b6711c7"
+    },
+    {
+      "file": "summit_growth_2026q1.txt",
+      "sha256": "2f3f78c73d47c3c34a0a61375debc38150498cebcde3e325a8b66a7a03e4801e"
+    },
+    {
+      "file": "summit_growth_2026q2.txt",
+      "sha256": "3a2f176e5e388df3107d7dc20f3557cfbc0e521c4976bea52c4881d672e6c18b"
+    },
+    {
+      "file": "cedar_real_assets_2026q1.txt",
+      "sha256": "05d5d2bc8e9830bc9e13588fdf90ea827a67f8cc653531f7ed8d2efe278fb2ac"
+    },
+    {
+      "file": "cedar_real_assets_2026q2.txt",
+      "sha256": "e9d764231bf6640ce6bb1179ba19ef02f2362ae2a807734bf38afd003a9d9006"
+    }
+  ]
+}

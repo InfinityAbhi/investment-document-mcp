@@ -1,0 +1,12 @@
+SYNTHETIC REPORT - LOCAL PROTOTYPE ONLY
+Document ID: cedar_real_assets_2026q2
+Fund ID: cedar_real_assets
+Fund: Cedar Real Assets Demo Fund
+Period: 2026Q2
+Currency: USD
+Strategy: Real estate and infrastructure assets.
+NAV USD: 94500000
+Commitments USD: 140000000
+Distributions USD: 800000
+All names and amounts are invented demonstration data.
+Changes in NAV are not investment returns and may reflect cash flows.

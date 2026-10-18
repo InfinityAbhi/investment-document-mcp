@@ -1,0 +1,12 @@
+SYNTHETIC REPORT - LOCAL PROTOTYPE ONLY
+Document ID: summit_growth_2026q1
+Fund ID: summit_growth
+Fund: Summit Growth Demo Fund
+Period: 2026Q1
+Currency: USD
+Strategy: Venture growth equity in fictional companies.
+NAV USD: 80000000
+Commitments USD: 150000000
+Distributions USD: 0
+All names and amounts are invented demonstration data.
+Changes in NAV are not investment returns and may reflect cash flows.
